@@ -6,8 +6,8 @@ print(name[1])
 print(name[1:])
 print(name +  "op")
 
-myD  = { 'comic' : 'marvel' , 'dc' : 'superman'}
   # dictionart datatype
+myD  = { 'comic' : 'marvel' , 'dc' : 'superman'}
 
 myD['comic'] = "Superhero"  # dictionaries are mutable
 print(myD['comic'])
@@ -18,6 +18,8 @@ print(tup[0])
 
 print(len(tup))   #len() function gives the length of anything
 
+
+# list datatype
 
 l1 = [2 , 4]
 l2 = l1
@@ -30,3 +32,8 @@ y = x
 
 x = 43
 print(y)
+
+#range data type
+for i in range( 2 , 9 , 3):  # range(start , stop , step) step is the increment the default is 1
+    print(i)
+

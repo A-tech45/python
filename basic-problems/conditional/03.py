@@ -1,7 +1,10 @@
 # U can use input i am making just shorter
-score = 90
-grade = ""
+score = 43
+#grade = ""
 
+if score >=100 :
+    print("Invalid Mark !!")
+    exit()
 if score >= 90 :
     grade = "A" ;
 elif score < 90 and score >= 80 :

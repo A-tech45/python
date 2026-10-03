@@ -14,7 +14,7 @@ tup[0] # etc etc
 
 # we can tranfer values directly into variables 
 # Eg:
-(chai , masala , ginger , chai) = tup
+(chai , masala , ginger ) = tup
 print(chai) 
 
 # See "chai"  value is saved in chai 

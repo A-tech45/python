@@ -13,7 +13,7 @@ myD['comic'] = "Superhero"  # dictionaries are mutable
 print(myD['comic'])
 
 tup = (1,2,3)
-#! tup[0] = 4   -- Will give an error as tuples are inmutablel 
+# tup[0] = 4   -- Will give an error as tuples are inmutablel 
 print(tup[0])
 
 print(len(tup))   #len() function gives the length of anything
